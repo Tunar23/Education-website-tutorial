@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script
+      src="https://kit.fontawesome.com/ede774997a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>University Eduford</title>
+  </head>
+  <body>
+    <!--Sub-Header Section start-->
+
+    <section class="sub-header">
+      <nav>
+        <a href="#"><img src="./Image/logo.png" /></a>
+        <div class="nav-links" id="navlinkS">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+
+    <!--Sub-Header Section ends-->
+
+    <!--About-Us Section start-->
+
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.317296483961!2d49.84835201476195!3d40.40182116447112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d5d9376ffdf%3A0xb68ade584aec2966!2zQXRhdMO8cmsgUGFya8Sx!5e0!3m2!1saz!2saz!4v1678289869944!5m2!1saz!2saz"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>Ataturk avenue, Ataturk park</h5>
+              <p>Nesimi district, Baku</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+3 5676737647</h5>
+              <p>Open Monday to Saturday, 10AM 7PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>info@wearetukrs.comk</h5>
+              <p>Email us you query</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="">
+            <input type="text" placeholder="Enter your Name" required />
+            <input
+              type="email"
+              placeholder="Enter your Email address"
+              required
+            />
+            <input type="text" placeholder="Enter your Subject" required />
+            <textarea placeholder="Message" rows="8"></textarea>
+            <button type="sumbit" class="btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--About-Us Section ends-->
+
+    <!--Footer Section start-->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias illo
+        architecto praesentium debitis <br />
+        sunt ad temporibussit necessitatibus, beatae itaque quo. Aut?
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-github"></i>
+      </div>
+      <p>Made with <i class="fa-regular fa-heart"></i> by EduFord</p>
+    </section>
+
+    <!--Footer Section ends-->
+
+    <!--JavaScript codes start-->
+    <script>
+      var navlink = document.getElementById("navlinkS");
+
+      function showMenu() {
+        navlinkS.style.right = "0";
+      }
+      function hideMenu() {
+        navlinkS.style.right = "-200px";
+      }
+    </script>
+
+    <!--JavaScript codes ends-->
+  </body>
+</html>
